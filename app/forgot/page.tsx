@@ -40,7 +40,7 @@ function Page() {
     }
   };
   return (
-    <div className="flex justify-center items-center min-h-screen">
+    <div className="flex justify-center items-center min-h-screen px-4">
       <Navbar />
       <Card className="w-full md:w-1/2">
         <form onSubmit={submit}>

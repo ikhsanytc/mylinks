@@ -11,7 +11,7 @@ function Page() {
     setTimeout(() => router.push("/"), 1200);
   }, []);
   return (
-    <div className="flex justify-center items-center min-h-screen">
+    <div className="flex justify-center items-center min-h-screen px-4">
       <Navbar />
       <Card className="w-full md:w-1/2">
         <CardHeader>
